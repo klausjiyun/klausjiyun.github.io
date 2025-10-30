@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Klaus (Jiyun) Sun | Research Data Management Consultant / Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Research Data Management Consultant/Developer focused on FAIR, DMP, GDPR/GCP compliance, MyDRE & data analytics."/>
+</head>
+<body>
+  <div class="resume">
+    <header>
+      <div class="profile">
+        <img src="avatar.jpg" alt="Profile photo" class="avatar" onerror="this.style.display='none'">
+        <div>
+          <h1>Klaus (Jiyun) Sun</h1>
+          <p class="title">Research Data Management Consultant / Developer · Amsterdam, NL (Hybrid)</p>
+          <p>
+            <a href="mailto:sunjiyun19941214@gmail.com">sunjiyun19941214@gmail.com</a> ·
+            <a href="https://www.linkedin.com/in/jiyun-sun-8779331a3/" target="_blank" rel="noopener">LinkedIn</a> ·
+            <span>GitHub: <a href="https://github.com/klausjiyun" target="_blank" rel="noopener">klausjiyun</a></span>
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <h2>Profile</h2>
+      <p>
+        Research Data Management Consultant/Developer at Amsterdam UMC, specializing in FAIR data, DMP consulting, GDPR/GCP compliance, and MyDRE platform governance. 
+        Experienced in metadata design, data quality, and process automation with Python/SQL. Comfortable coordinating across research, IT and compliance to deliver reproducible, privacy-preserving workflows.
+      </p>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+
+      <div class="job">
+        <div class="job-head">
+          <h3>Amsterdam UMC — Research Data Management Consultant / Developer (Full-time)</h3>
+          <span class="period">Aug 2023 – Present · Netherlands · Hybrid</span>
+        </div>
+        <ul>
+          <li>Provide DMP consulting and compliance guidance aligned with GDPR and GCP; review plans and advise researchers across departments.</li>
+          <li>Design and deliver DMP courses for PhD students (effective RDM, stewardship, reproducibility, data sharing).</li>
+          <li>Operate and improve MyDRE onboarding, governance and access workflows; coordinate HPC intake and storage options.</li>
+          <li>Build/maintain metadata and publication workflows for research data within Amsterdam UMC; contribute to multi-site projects (e.g., harmonization & dictionaries).</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-head">
+          <h3>AUTEL Energy – Europe — Logistics Specialist (Full-time)</h3>
+          <span class="period">Nov 2022 – Jun 2023 · Amsterdam Area · On-site</span>
+        </div>
+        <ul>
+          <li>Managed SAP for import/export data visibility supporting EV charging products (AC/DC), improving logistics decision-making.</li>
+          <li>Coordinated transportation & warehouse network across EU countries; ensured stocking and on-time delivery.</li>
+          <li>Monitored partners’ daily performance and KPIs; aligned with CN HQ & EU strategy via SAP/ERP dashboards.</li>
+          <li>Developed weekly product forecasts & safety stock with Excel and Power BI.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-head">
+          <h3>LG Electronics Benelux — Customer Service Data Analyst (Internship)</h3>
+          <span class="period">Aug 2022 – Oct 2022 · Amsterdam Area</span>
+        </div>
+        <ul>
+          <li>Analyzed service planning datasets and produced weekly supply chain reports (Excel/EDW).</li>
+          <li>Tracked logistics/warehouse/transportation costs and supported moving plans.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-head">
+          <h3>Bloem Health Products B.V. — Operation & Data Analyst (Internship)</h3>
+          <span class="period">Nov 2021 – Jul 2022 · Amsterdam Area</span>
+        </div>
+        <ul>
+          <li>Conducted sales data analysis with Excel & Exact Online; managed manufacturing and warehouse order data.</li>
+          <li>Maintained administrative datasets to support day-to-day operations.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <ul class="edu">
+        <li><strong>Vrije Universiteit Amsterdam (VU)</strong> — MA, Text Mining (2021–2022)
+          <div class="muted">NLP · Python for text analysis · Applied Text Mining · ML for NLP · Language as Data</div>
+        </li>
+        <li><strong>Henan Normal University</strong> — BA, English Translation</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>Python, SQL</li>
+        <li>Metadata & variable dictionaries</li>
+        <li>FAIR / DMP / GDPR / GCP</li>
+        <li>MyDRE governance, HPC intake</li>
+        <li>SAP, ERP, Exact Online</li>
+        <li>Excel (advanced), Power BI</li>
+        <li>Data quality & automation</li>
+        <li>Stakeholder communication</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Selected Highlights</h2>
+      <ul>
+        <li>Designed centralized metadata/variable dictionaries and SOP-aligned DMP review notes for multi-site research.</li>
+        <li>Streamlined MyDRE onboarding and access control processes; improved traceability and compliance checks.</li>
+        <li>Built forecasting and safety-stock tracking for EV charging logistics using Excel/Power BI dashboards.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Languages</h2>
+      <p>English (Fluent) · Chinese (Native) · Dutch (A2+)</p>
+    </section>
+
+    <footer>
+      <p>© <span id="year"></span> Klaus (Jiyun) Sun · Amsterdam, NL</p>
+    </footer>
+  </div>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
